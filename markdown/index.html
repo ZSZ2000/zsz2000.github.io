@@ -8,16 +8,19 @@
 <head>
   <meta charset="UTF-8">
   <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
-  <link rel="icon" type="image/png" href="/img/favicon.ico">
+  <link rel="icon" href="/img/favicon.ico">
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#3A88ED">
-  <meta name="description" content="">
+  
+    <meta name="description" content="">
+  
   <meta name="author" content="Andrews">
   <meta name="keywords" content="">
-  <title>markdown 简明语法手册 - ZSZ小站</title>
+  
+  <title>Markdown 简明语法手册 - ZSZ小站</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
 
@@ -63,7 +66,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.7","typing":{"enable":true,"typeSpeed":50,"cursorChar":null,"loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.8","typing":{"enable":true,"typeSpeed":50,"cursorChar":null,"loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
@@ -182,7 +185,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="markdown 简明语法手册">
+            <span class="h2" id="subtitle" title="Markdown 简明语法手册">
               
             </span>
 
@@ -197,8 +200,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-02-27 12:33" pubdate>
-        2021年2月27日 下午
+      <time datetime="2021-01-27 12:00" pubdate>
+        2021年1月27日 中午
       </time>
     </span>
   
@@ -249,7 +252,7 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">markdown 简明语法手册</h1>
+            <h1 style="display: none">Markdown 简明语法手册</h1>
             
             <div class="markdown-body">
               <h1 id="Markdown-简明语法手册"><a href="#Markdown-简明语法手册" class="headerlink" title="Markdown 简明语法手册"></a>Markdown 简明语法手册</h1><h2 id="标准语法"><a href="#标准语法" class="headerlink" title="标准语法"></a>标准语法</h2><h3 id="1-分级标题"><a href="#1-分级标题" class="headerlink" title="1. 分级标题"></a>1. 分级标题</h3><p>使用 === 表示一级标题，使用 —- 表示二级标题。</p>
@@ -257,7 +260,6 @@
 <p>注意标题与下部符号之间无空行，否则符号行将变成分割线。</p>
 </blockquote>
 <p>也可通过在行首加<code>#</code>表示不同级别的标题 (H1-H6)，例如：<code># H1</code>, <code>## H2</code>, <code>### H3</code>，<code>#### H4</code>，<code>##### H5</code>，<code>###### H6</code>。</p>
-<hr>
 <p>示例代码（未展示效果）：</p>
 <div class="code-wrapper"><pre class="line-numbers language-none"><code class="language-none">这是一个一级标题
 &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;
@@ -272,16 +274,14 @@
 #### 四级标题
 ##### 五级标题
 ###### 六级标题<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></div>
-<p><span id="bold"/></p>
-<h3 id="2-斜体和粗体"><a href="#2-斜体和粗体" class="headerlink" title="2. 斜体和粗体"></a>2. 斜体和粗体</h3><p>(标准强调语法)(参见<a href="#highlight">高亮和删除线</a>)</p>
+<h3 id="2-斜体和粗体"><a href="#2-斜体和粗体" class="headerlink" title="2. 斜体和粗体"></a>2. 斜体和粗体</h3><p>(标准强调语法)(参见<a href="#4-高亮和删除线">高亮和删除线</a>)</p>
 <p>使用 <code>*</code> 和 <code>**</code> 表示斜体和粗体。</p>
 <blockquote>
 <p>粗斜体可用<code>***</code>表示。</p>
 </blockquote>
 <p>示例：</p>
 <p> <em>斜体</em>， <strong>粗体</strong>，<strong><em>粗斜体</em></strong>。</p>
-<p><span id="link"/></p>
-<h3 id="3-链接"><a href="#3-链接" class="headerlink" title="3. 链接"></a>3. 链接</h3><p>(参见<a href="#picture">插入图片</a>)</p>
+<h3 id="3-链接"><a href="#3-链接" class="headerlink" title="3. 链接"></a>3. 链接</h3><p>(参见<a href="#7-插入图片">插入图片</a>)</p>
 <h4 id="3-1-普通链接"><a href="#3-1-普通链接" class="headerlink" title="3.1 普通链接"></a>3.1 普通链接</h4><p>使用 <code>[链接文本描述](链接地址)</code> 为文字增加链接，或使用<code>&lt;&gt;</code>直接显示链接地址。</p>
 <p>示例：</p>
 <p>这是去往 <a target="_blank" rel="noopener" href="https://www.dogedoge.com/">多吉搜索</a> 的链接。</p>
@@ -290,8 +290,8 @@
 <p>当输入一个<strong>格式正确</strong>的邮箱地址或 url 等链接时，Markdown 会自动将其转换为可访问的链接。</p>
 </blockquote>
 <p>示例：</p>
-<p>邮箱：<a href="&#109;&#97;&#105;&#x6c;&#116;&#111;&#x3a;&#49;&#x30;&#x31;&#x30;&#x31;&#64;&#113;&#113;&#46;&#99;&#x6f;&#x6d;&#47;">&#49;&#x30;&#x31;&#x30;&#x31;&#64;&#113;&#113;&#46;&#99;&#x6f;&#x6d;&#47;</a><br>链接：<a target="_blank" rel="noopener" href="https://www.dogedoge.com/">https://www.dogedoge.com/</a></p>
-<h4 id="3-3-引用链接"><a href="#3-3-引用链接" class="headerlink" title="3.3 引用链接"></a>3.3 引用链接</h4><p>(参见<a href="#footnote">注脚</a>)<br>使用 <code>[链接文本描述][链接引用]</code> 引用链接</p>
+<p>邮箱：<a href="&#109;&#x61;&#105;&#108;&#116;&#x6f;&#58;&#49;&#x30;&#49;&#48;&#49;&#64;&#x71;&#x71;&#46;&#x63;&#x6f;&#109;&#47;">&#49;&#x30;&#49;&#48;&#49;&#64;&#x71;&#x71;&#46;&#x63;&#x6f;&#109;&#47;</a><br>链接：<a target="_blank" rel="noopener" href="https://www.dogedoge.com/">https://www.dogedoge.com/</a></p>
+<h4 id="3-3-引用链接"><a href="#3-3-引用链接" class="headerlink" title="3.3 引用链接"></a>3.3 引用链接</h4><p>(参见<a href="#5-注脚">注脚</a>)<br>使用 <code>[链接文本描述][链接引用]</code> 引用链接</p>
 <blockquote>
 <p><strong>链接引用申明格式：</strong><br><em>[链接引用名称]: 链接地址 “注释”</em></p>
 <blockquote>
@@ -342,8 +342,7 @@
 </li>
 <li>2、第二章</li>
 </ul>
-<p><span id="code-block"/> </p>
-<h3 id="5-代码块"><a href="#5-代码块" class="headerlink" title="5. 代码块"></a>5. 代码块</h3><p>(参见<a href="#language-highlight-code-block">加强的代码块</a>)</p>
+<h3 id="5-代码块"><a href="#5-代码块" class="headerlink" title="5. 代码块"></a>5. 代码块</h3><p>(参见<a href="#6-加强的代码块">加强的代码块</a>)</p>
 <h4 id="5-1-行内代码块"><a href="#5-1-行内代码块" class="headerlink" title="5.1 行内代码块"></a>5.1 行内代码块</h4><p>使用 <strong>反引号 ` </strong> 包裹行内代码块。</p>
 <p>示例：</p>
 <p>整篇文章将简要阐述 <code>markdown</code>的语法。</p>
@@ -362,18 +361,17 @@ echo &quot;Makedown&quot;
 <p>引用层2</p>
 </blockquote>
 </blockquote>
-<p><span id="picture"/></p>
-<h3 id="7-插入图片"><a href="#7-插入图片" class="headerlink" title="7.  插入图片"></a>7.  插入图片</h3><p>(参见<a href="#link">链接</a>)</p>
+<h3 id="7-插入图片"><a href="#7-插入图片" class="headerlink" title="7.  插入图片"></a>7.  插入图片</h3><p>(参见<a href="#3-链接">链接</a>)</p>
 <p>使用 <code>![描述](图片链接地址)</code> 插入图像。</p>
 <blockquote>
 <ol>
 <li>链接地址可为URI，也可为本地绝对/相对路径。</li>
-<li>图片同样支持引用链接(参见<a href="#link">引用链接</a>)</li>
+<li>图片同样支持引用链接(参见<a href="#3-3-引用链接">引用链接</a>)</li>
 </ol>
 </blockquote>
 <p>示例：</p>
 <p><img src="https://i0.hdslb.com/bfs/archive/1be2fd76cc98cdc6a595c05c3134fbf937a1c126.png" srcset="/img/loading.gif" alt="哔哩哔哩-冬"></p>
-<h1 id="扩展语法"><a href="#扩展语法" class="headerlink" title="扩展语法"></a>扩展语法</h1><h3 id="1-表格"><a href="#1-表格" class="headerlink" title="1. 表格"></a>1. 表格</h3><p>（非官方通用标准）<br>使用 <code>|</code> 作为列分隔符，使用<code>|-|</code>作为分割行划分表头和表体。在</p>
+<h2 id="扩展语法"><a href="#扩展语法" class="headerlink" title="扩展语法"></a>扩展语法</h2><h3 id="1-表格"><a href="#1-表格" class="headerlink" title="1. 表格"></a>1. 表格</h3><p>（非官方通用标准）<br>使用 <code>|</code> 作为列分隔符，使用<code>|-|</code>作为分割行划分表头和表体。在</p>
 <blockquote>
 <p>每一行头尾的竖线是可以省略的，为了看起来更整齐，多数人会写上。</p>
 </blockquote>
@@ -432,8 +430,7 @@ echo &quot;Makedown&quot;
 </ul>
 <h3 id="3-目录生成"><a href="#3-目录生成" class="headerlink" title="3. 目录生成"></a>3. 目录生成</h3><p>（多数Markdown渲染器支持）</p>
 <p>使用<code>[toc]</code>自动根据分级标题生成目录信息。</p>
-<p><span id="highlight"/></p>
-<h3 id="4-高亮和删除线"><a href="#4-高亮和删除线" class="headerlink" title="4. 高亮和删除线"></a>4. 高亮和删除线</h3><p>(非标准强调语法)(参见<a href="#bold">斜体和粗体</a>)</p>
+<h3 id="4-高亮和删除线"><a href="#4-高亮和删除线" class="headerlink" title="4. 高亮和删除线"></a>4. 高亮和删除线</h3><p>(非标准强调语法)(参见<a href="#2-斜体和粗体">斜体和粗体</a>)</p>
 <h4 id="4-1-高亮"><a href="#4-1-高亮" class="headerlink" title="4.1 高亮"></a>4.1 高亮</h4><p>（少数Markdown渲染器支持）<br>使用 <code>==</code> 表示高亮。</p>
 <p>示例：</p>
 <p> ==此处是重点笔记==。</p>
@@ -441,8 +438,7 @@ echo &quot;Makedown&quot;
 <p>使用 <code>~~</code> 表示删除。</p>
 <p>示例：</p>
 <p> <del>这是一段错误的文本。</del>。</p>
-<p><span id="footnote"/> </p>
-<h3 id="5-注脚"><a href="#5-注脚" class="headerlink" title="5. 注脚"></a>5. 注脚</h3><p>（多数Markdown渲染器支持）(参见<a href="#link">引用链接</a>)<br>使用 <code>[^keyword]</code> 在文中使用注脚。</p>
+<h3 id="5-注脚"><a href="#5-注脚" class="headerlink" title="5. 注脚"></a>5. 注脚</h3><p>（多数Markdown渲染器支持）(参见<a href="#3-3-引用链接">引用链接</a>)<br>使用 <code>[^keyword]</code> 在文中使用注脚。</p>
 <blockquote>
 <p><strong>脚注声明格式</strong><br><em>[^脚注名]: 说明文字</em></p>
 <blockquote>
@@ -454,8 +450,7 @@ echo &quot;Makedown&quot;
 <blockquote id="fn_note">
 <sup>note</sup>. 这是 <strong>文中注脚</strong> 。<a href="#reffn_note" title="Jump back to footnote [note] in the text."> &#8617;</a>
 </blockquote>
-<p><i id="language-highlight-code-block"/> </p>
-<h3 id="6-加强的代码块"><a href="#6-加强的代码块" class="headerlink" title="6. 加强的代码块"></a>6. 加强的代码块</h3><p>（多数Markdown渲染器支持主流语言语法高亮，对于部分小众语言的支持并不是特别好，行号只有部分编辑器支持）(参见<a href="#code-block">代码块</a>)<br>不使用缩进（<code>Tab</code>键或4个空格键<code>Space</code>）表示代码块，使用 ``` 包裹代码块，在开始处可通过标注选定高亮的语言（无指定时，往往由渲染器自动解析）。支持多种编程语言的语法高亮及行号显示。</p>
+<h3 id="6-加强的代码块"><a href="#6-加强的代码块" class="headerlink" title="6. 加强的代码块"></a>6. 加强的代码块</h3><p>（多数Markdown渲染器支持主流语言语法高亮，对于部分小众语言的支持并不是特别好，行号只有部分编辑器支持）(参见<a href="#5-代码块">代码块</a>)<br>不使用缩进（<code>Tab</code>键或4个空格键<code>Space</code>）表示代码块，使用 ``` 包裹代码块，在开始处可通过标注选定高亮的语言（无指定时，往往由渲染器自动解析）。支持多种编程语言的语法高亮及行号显示。</p>
 <p>示例：</p>
 <div class="code-wrapper"><pre><code>console.log(&quot;This is javascript!&quot;)
 </code></pre></div><div class="code-wrapper"><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token builtin class-name">echo</span> Hello<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></div>
@@ -463,7 +458,7 @@ echo &quot;Makedown&quot;
 <h4 id="7-1-行内公式"><a href="#7-1-行内公式" class="headerlink" title="7.1 行内公式"></a>7.1 行内公式</h4><p>使用<code>$</code>包裹行内公式： </p>
 <p>示例：</p>
 <p>质能守恒方程： $E=mc^2$ 。</p>
-<h4 id="7-2-块级公式"><a href="#7-2-块级公式" class="headerlink" title="7.2 块级公式"></a>7.2 块级公式</h4><p>使用 <strong>双<code>$</code>符</strong> 包裹整行公式：</p>
+<h4 id="7-2-块级公式"><a href="#7-2-块级公式" class="headerlink" title="7.2 块级公式"></a>7.2 块级公式</h4><p>使用$$$$ 包裹整行公式：</p>
 <p>示例：</p>
 <script type="math/tex; mode=display">\sum_{i=1}^n a_i=0</script><script type="math/tex; mode=display">f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2</script><script type="math/tex; mode=display">\sum^{j-1}_{k=0}{\widehat{\gamma}_{kj} z_k}</script><p>访问 <a target="_blank" rel="noopener" href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference">MathJax</a> 参考更多使用方法。 </p>
 <h3 id="8-标签分类"><a href="#8-标签分类" class="headerlink" title="8. 标签分类"></a>8. 标签分类</h3><p>（少数Markdown渲染器支持）</p>
@@ -555,9 +550,20 @@ echo &quot;Makedown&quot;
               <div class="post-metas mb-3">
                 
                 
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/Markdown/">Markdown</a>
+                    
+                  </div>
+                
               </div>
               
-                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
+                <p class="note note-warning">
+                  
+                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
+                  
+                </p>
               
               
                 <div class="post-prevnext">
@@ -710,11 +716,12 @@ echo &quot;Makedown&quot;
   <script>
     (function () {
       var path = "/local-search.xml";
-      var inputArea = document.querySelector("#local-search-input");
-      inputArea.onclick = function () {
+      $('#local-search-input').on('click', function() {
         searchFunc(path, 'local-search-input', 'local-search-result');
-        this.onclick = null
-      }
+      });
+      $('#modalSearch').on('shown.bs.modal', function() {
+        $('#local-search-input').focus();
+      });
     })()
   </script>
 
