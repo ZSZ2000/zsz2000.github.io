@@ -66,7 +66,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.8","typing":{"enable":true,"typeSpeed":50,"cursorChar":null,"loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.8","typing":{"enable":true,"typeSpeed":50,"cursorChar":null,"loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":"§"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":6},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
@@ -201,7 +201,7 @@
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
       <time datetime="2021-01-27 12:00" pubdate>
-        2021年1月27日 中午
+        2021年1月27日
       </time>
     </span>
   
@@ -290,7 +290,7 @@
 <p>当输入一个<strong>格式正确</strong>的邮箱地址或 url 等链接时，Markdown 会自动将其转换为可访问的链接。</p>
 </blockquote>
 <p>示例：</p>
-<p>邮箱：<a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x31;&#48;&#x31;&#x30;&#x31;&#64;&#x71;&#113;&#x2e;&#99;&#111;&#109;&#47;">&#x31;&#48;&#x31;&#x30;&#x31;&#64;&#x71;&#113;&#x2e;&#99;&#111;&#109;&#47;</a><br>链接：<a target="_blank" rel="noopener" href="https://www.dogedoge.com/">https://www.dogedoge.com/</a></p>
+<p>邮箱：<a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x31;&#48;&#49;&#x30;&#x31;&#x40;&#113;&#113;&#46;&#99;&#x6f;&#109;&#47;">&#x31;&#48;&#49;&#x30;&#x31;&#x40;&#113;&#113;&#46;&#99;&#x6f;&#109;&#47;</a><br>链接：<a target="_blank" rel="noopener" href="https://www.dogedoge.com/">https://www.dogedoge.com/</a></p>
 <h4 id="3-3-引用链接"><a href="#3-3-引用链接" class="headerlink" title="3.3 引用链接"></a>3.3 引用链接</h4><p>(参见<a href="#5-注脚">注脚</a>)<br>使用 <code>[链接文本描述][链接引用]</code> 引用链接</p>
 <blockquote>
 <p><strong>链接引用申明格式：</strong><br><em>[链接引用名称]: 链接地址 “注释”</em></p>
@@ -370,7 +370,7 @@ echo &quot;Makedown&quot;
 </ol>
 </blockquote>
 <p>示例：</p>
-<p><img src="https://i0.hdslb.com/bfs/archive/1be2fd76cc98cdc6a595c05c3134fbf937a1c126.png" srcset="/img/loading.gif" alt="哔哩哔哩-冬"></p>
+<p><img src="https://i0.hdslb.com/bfs/archive/1be2fd76cc98cdc6a595c05c3134fbf937a1c126.png" srcset="/image/loading.gif" alt="哔哩哔哩-冬"></p>
 <h2 id="扩展语法"><a href="#扩展语法" class="headerlink" title="扩展语法"></a>扩展语法</h2><h3 id="1-表格"><a href="#1-表格" class="headerlink" title="1. 表格"></a>1. 表格</h3><p>（非官方通用标准）<br>使用 <code>|</code> 作为列分隔符，使用<code>|-|</code>作为分割行划分表头和表体。在</p>
 <blockquote>
 <p>每一行头尾的竖线是可以省略的，为了看起来更整齐，多数人会写上。</p>
